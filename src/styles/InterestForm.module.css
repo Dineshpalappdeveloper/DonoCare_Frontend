@@ -1,0 +1,173 @@
+.BrandlogoDiv {
+  height: 8.5vh;
+  box-sizing: border-box;
+  width: 100%;
+  border: 2px solid #2157ad;
+  background-color: #2157ad;
+  box-sizing: border-box;
+}
+.submitButton {
+  text-align: center;
+  align-items: center;
+  width: 100%;
+}
+.checkboxParentDiv {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 4px;
+}
+.submitFormLoader {
+  color: white;
+  font-size: 1rem;
+  padding: 2px;
+  margin: 4px 4.7rem;
+}
+.mainDiv {
+  max-width: 45vw;
+}
+.sameAsNumberCheckbox {
+  font-size: 0.8rem;
+}
+
+.brandimg {
+  height: 7vh;
+  /* width: 150px; */
+  min-width: 100px;
+  max-width: 100px;
+  margin-left: 100px;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  margin-top: 3px;
+  cursor: pointer;
+  border: 1px solid white;
+  padding: 4px 4px;
+  background: white;
+  border-radius: 30px;
+  min-width: 5rem;
+  max-width: 5rem;
+}
+.contentTop {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  max-width: 40vw;
+}
+.FormParent {
+  width: 98.6vw;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  background-color: rgb(241, 239, 239);
+}
+.formHeading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2157ad;
+  padding: 20px;
+  color: white;
+}
+.formbody {
+  width: 500px;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  padding: 15px;
+  justify-content: center;
+  border: 2px solid rgb(245, 191, 191);
+}
+.inputParent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+}
+.headingCard {
+  min-width: 675px;
+}
+.loginCon {
+  display: flex;
+  justify-content: center;
+  font-size: "1.1rem";
+}
+.formhead {
+  font-size: 1.5rem;
+  color: #2a2f5b;
+}
+.headingContent {
+  align-items: center;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+/* tab view lg */
+@media only screen and (max-width: 1200px) {
+  .mainDiv {
+    min-width: 80vw;
+  }
+  .brandimg {
+    margin-left: 0;
+  }
+  .BrandlogoDiv {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+/* small tab view view lg */
+
+@media only screen and (max-width: 700px) {
+  .mainDiv {
+    min-width: 95vw;
+  }
+  .brandimg {
+    /* margin-left: 42vw; */
+    align-self: center;
+  }
+  .BrandlogoDiv {
+    display: flex;
+    justify-content: center;
+  }
+}
+/* modile view xs */
+
+@media only screen and (max-width: 576px) {
+  .mainDiv {
+    max-width: 92vw;
+  }
+  .formhead {
+    font-size: 1.5rem;
+    color: #2a2f5b;
+  }
+  .loginCon {
+    display: flex;
+    gap: 10px;
+    font-size: "1.8rem";
+    flex-direction: column;
+  }
+  .brandimg {
+    margin-top: 2px;
+    /* margin-left: 25vw; */
+    /* align-self: center; */
+  }
+  .BrandlogoDiv {
+    display: flex;
+    justify-content: center;
+  }
+
+  .contentTop {
+    padding: 10px;
+    width: 375px;
+  }
+  .formParentdiv {
+    border: 0px solid white;
+  }
+}
+/*   modile view for  small screen */
+@media only screen and (max-width: 576px) {
+}
